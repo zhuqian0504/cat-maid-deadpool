@@ -1,5 +1,7 @@
 # 猫耳女仆死侍 Codex Pet
 
+**中文** | [English](README_EN.md)
+
 这是一个使用 Codex 及其他 AI 工具辅助生成的猫耳女仆死侍 Codex 桌宠，包含完整的动作精灵图与安装配置。
 
 ## 动作图鉴
