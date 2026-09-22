@@ -29,22 +29,12 @@
 ```text
 请从 GitHub 仓库 `https://github.com/zhuqian0504/cat-maid-deadpool` 安装猫耳女仆死侍 Codex Desktop 自定义宠物。
 
-请按以下要求直接执行：
-1. 使用 `git clone https://github.com/zhuqian0504/cat-maid-deadpool.git` 克隆仓库；如果当前目录已是该仓库，直接使用当前目录。
-2. 确定 Codex 配置目录：优先使用环境变量 `CODEX_HOME`；如未设置，Windows 使用 `%USERPROFILE%\.codex`，macOS/Linux 使用 `~/.codex`。
-3. 创建宠物目录 `<CODEX_HOME>/pets/cat-maid-deadpool`。
-4. 将仓库中的 `final/spritesheet.webp` 复制到该目录。
-5. 在该目录创建 `pet.json`，内容必须为：
-   {
-     "id": "cat-maid-deadpool",
-     "displayName": "喵仆侍",
-     "description": "喵~",
-     "spritesheetPath": "spritesheet.webp"
-   }
-6. 保留 `<CODEX_HOME>/config.toml` 中的其他配置，只在 `[desktop]` 配置段中添加或更新：
-   selected-avatar-id = "custom:cat-maid-deadpool"
-7. 验证 `pet.json` 和 `spritesheet.webp` 均存在，并确认 `pet.json` 是有效 JSON。
-8. 完成后告诉我实际安装路径和验证结果，然后提醒我完全退出并重新打开 Codex Desktop 以加载宠物。
+请直接执行以下操作：
+1. 克隆该仓库；如果当前目录已是该仓库，直接使用当前目录。
+2. 将仓库内的 `final` 文件夹完整复制到 `<CODEX_HOME>/pets/cat-maid-deadpool`。如未设置 `CODEX_HOME`，Windows 使用 `%USERPROFILE%\.codex`，macOS/Linux 使用 `~/.codex`。
+3. 保留 `<CODEX_HOME>/config.toml` 的其他内容，在 `[desktop]` 中添加或更新 `selected-avatar-id = "custom:cat-maid-deadpool"`。
+4. 验证安装目录中存在 `pet.json` 和 `spritesheet.webp`，然后告诉我安装路径与验证结果。
+5. 提醒我完全退出并重新打开 Codex Desktop。
 
 不要改动仓库内的原始文件，也不要覆盖 `config.toml` 中与本次安装无关的配置。
 ```
